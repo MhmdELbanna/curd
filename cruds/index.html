@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <title>curd</title>
+</head>
+<body>
+    <div class="todolist shadow p-3 rounded-3 ">
+        <h4 class="text-center text-uppercase ">My cards</h4>
+        <div class="todolist_service d-flex gap-3 justify-content-center">
+            <input type="text" class="form-control todoinput input-sm" placeholder="Enter your Name Task.....!">
+            <button class="btn btn-primary btn-sm addTodo">Add Card</button>
+            <button class="btn btn-primary btn-sm save_task d-none">save</button>
+        </div>
+
+    </div>
+    <div class="todoTable mt-5">
+        <table class="table text-center">
+            <tr>
+                <th>Task Name</th>
+                <th>creation date</th>
+                <th>Edite</th>
+                <th>Delete</th>
+            </tr>
+            <tbody id="showdata">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assest/js/main.js"></script> 
+</body>
+</html>
